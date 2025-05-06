@@ -8,8 +8,14 @@
       "plugin:prettier/recommended"
     ],
     "rules": {
-      // example: turn off console warnings
-      "no-console": "off"
+      "no-console": "off",
+      "linebreak-style": 0,
+      "prettier/prettier": [
+        "error",
+        {
+          "endOfLine": "auto"
+        }
+      ]
     }
   }
   
